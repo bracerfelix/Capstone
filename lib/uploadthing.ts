@@ -14,3 +14,5 @@ export const UploadDropzone = generateUploadDropzone<OurFileRouter>();
 // import { ourFileRouter, type OurFileRouter } from "@/app/api/uploadthing/core";
 
 // export const { UploadButton, UploadDropzone, Uploader } = generateComponents<OurFileRouter>();
+
+//Capstone - Pra
