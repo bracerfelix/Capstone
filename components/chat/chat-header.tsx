@@ -3,6 +3,8 @@ import { MobileToggle } from "@/components/mobile-toggle";
 import { UserAvatar } from "@/components/user-avatar";
 import { SocketIndicator } from "@/components/socket-indicator";
 
+
+// defining chat-header's prop interface
 interface ChatHeaderProps {
     serverId: string;
     name: string;
