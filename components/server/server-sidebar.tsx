@@ -66,7 +66,8 @@ export const ServerSidebar = async ({
     const audioChannels = server?.channels.filter((channel) => channel.type === ChannelType.AUDIO)
     const videoChannels = server?.channels.filter((channel) => channel.type === ChannelType.VIDEO)
     const members = server?.members.filter((member) => member.profileId !== profile.id)
-
+    // !== profile.id (in case we don't want to see our own DMs on the list. Changeable functionality.)
+    
     if(!server) {
         return redirect("/");
     }
